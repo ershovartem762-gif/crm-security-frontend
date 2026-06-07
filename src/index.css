@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkBg: #09090b;
+  --color-darkCard: #141417;
+  --color-neonPurple: #a855f7;
+  --color-neonGreen: #22c55e;
+  --color-neonRed: #ef4444;
+}
+
+body {
+  background-color: var(--color-darkBg);
+  color: #ffffff;
+  font-family: sans-serif;
+  margin: 0;
+}
